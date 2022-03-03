@@ -16,8 +16,8 @@ export default function App() {
   const inputNameHandler = (e) => setTheirName(e.target.value);
   const inputAgeHandler = () => setTheirAge(theirAge + 1);
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
+    <div className="AppDoo">
+      <h1>Hello Dear User!</h1>
       <p>Start editing to see some magic happen :)</p>
       <button onClick={clickHandler}>You Have Pressed {count} Times</button>
 

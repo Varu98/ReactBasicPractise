@@ -3,7 +3,13 @@
   color: antiquewhite;
   font-family: sans-serif;
 }
-
+.AppDoo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 h1,
 p {
   /* font-family: Loto; */
